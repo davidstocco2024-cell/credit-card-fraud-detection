@@ -1,0 +1,24 @@
+# Datos (nunca al repo)
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+!data/**/.gitkeep
+
+# Modelos
+models/**/*.pkl
+models/**/*.joblib
+models/**/*.h5
+
+# Entornos
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Notebooks con output (opcional pero limpio)
+*.nbconvert.ipynb
+
+# Config local (si tenés credenciales)
+.env
